@@ -14,5 +14,9 @@ namespace rebookkorsunov
         {
             InitializeComponent();
         }
+        private async void Button_Clicked_LoeTenj(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new ktotenjPage());
+        }
     }
 }

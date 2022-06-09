@@ -1,41 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:rebookkorsunov"
-             x:Class="rebookkorsunov.DetektivPage">
+<ContentPage x:Class="rebookkorsunov.DetektivPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:rebookkorsunov">
     <ScrollView>
-        <Grid Padding="15"
-          BackgroundColor="LightGray">
-
+        <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="150"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
             </Grid.ColumnDefinitions>
-
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
             </Grid.RowDefinitions>
-
-            <Image Grid.Row="0" Grid.Column="0"
-               Source="ktotiten.png"
-               WidthRequest="350"/>
-            <Label Grid.Row="0" Grid.Column="1"
-               Text="Kes sa oled, Vari?"
-               FontSize="20"
-               TextColor="Black"/>
-            <Label Grid.Row="0" Grid.Column="1"
-               Text="69 lehekülge"
-               FontSize="15"
-               TextColor="Black"/>
-            <Label Grid.Row="0" Grid.Column="1"
-               Text="Rahuliku ja mõõdetud eluga harjunud vaikset linnakest valdas õuduslaine. 
-                   Kunstnik on metsaline, kes hakkas noori tüdrukuid jahtima, neid julmalt tapma ja võimude abitust mõnitades. 
-                   Olen tavaline üliõpilane, kellest võib saada ka tema ohver, aga mul on selle koletisega omad kontod ja just kättemaks sunnib mind vaatamata hirmule võitlema."
-               FontSize="10"
-               TextColor="DarkGray"/>
-            <Button Grid.Row="2" Grid.Column="0" 
-                    Text="Button1" 
-                    WidthRequest="2"/>
+            <StackLayout Grid.Column="0" >
+                <Image Source="ktotiten.png"/>
+            </StackLayout>
+            <StackLayout Grid.Column="1">
+                <Label FontSize="25" Text="Kes sa oled, Vari?"/>
+                <Label FontSize="15" Text="56 lehekülge"/>
+                <Label FontSize="10" Text="Rahuliku ja mõõdetud eluga harjunud vaikset linnakest valdas õuduslaine. Kunstnik on metsaline, kes hakkas noori tüdrukuid jahtima, neid julmalt tapma ja võimude abitust mõnitades. Olen tavaline üliõpilane, kellest võib saada ka tema ohver, aga mul on selle koletisega omad kontod ja just kättemaks sunnib mind vaatamata hirmule võitlema."/>
+                <Button Text="Lugema" Clicked="Button_Clicked_LoeTenj"/>
+            </StackLayout>
+            <StackLayout Grid.Column="0" Grid.Row="1">
+                <Image Source="ktotiten.png"/>
+            </StackLayout>
+            <StackLayout Grid.Column="1" Grid.Row="1">
+                <Label FontSize="25" Text="Kes sa oled, Vari?"/>
+                <Label FontSize="15" Text="69 lehekülge"/>
+                <Label FontSize="10" Text="Rahuliku ja mõõdetud eluga harjunud vaikset linnakest valdas õuduslaine. Kunstnik on metsaline, kes hakkas noori tüdrukuid jahtima, neid julmalt tapma ja võimude abitust mõnitades. Olen tavaline üliõpilane, kellest võib saada ka tema ohver, aga mul on selle koletisega omad kontod ja just kättemaks sunnib mind vaatamata hirmule võitlema."/>
+            </StackLayout>
         </Grid>
     </ScrollView>
 </ContentPage>
