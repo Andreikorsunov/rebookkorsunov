@@ -6,6 +6,6 @@
             BarBackgroundColor="LightGray"
             SelectedTabColor="#DC143C"
             UnselectedTabColor="Black">
-    <ContentPage BackgroundColor="LightGray" Title="Romantika"/>
+    <local:RomantikPage BackgroundColor="LightGray" Title="Romaanid"/>
     <local:DetektivPage BackgroundColor="LightGray" Title="Detektiiv"/>
 </TabbedPage>

@@ -17,6 +17,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="VanilPage.xaml.cs">
+      <DependentUpon>VanilPage</DependentUpon>
+    </Compile>
+    <Compile Update="apelPage.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="RomantikPage.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
     <Compile Update="ktotenjPage.xaml.cs">
       <DependentUpon>ktotenjPage.xaml</DependentUpon>
     </Compile>

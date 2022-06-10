@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="rebookkorsunov.RomantikPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:rebookkorsunov">
+    <ScrollView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Column="0" >
+                <Image Source="vanil.jpg"/>
+            </StackLayout>
+            <StackLayout Grid.Column="1">
+                <Label FontSize="25" Text="Vanilje Horisont" TextColor="Black"/>
+                <Label FontSize="15" Text="2 lehekülge/220" TextColor="Black"/>
+                <Label FontSize="10" Text="Tanya Ilyina ja Nikita Klevtsov on väikese küla säravaim paar. Nad on koos olnud lapsepõlvest saati ja keskkoolis kasvas sõprus armastuseks. Nikita on sihikindel tüüp, kellel on unistus minna pealinna ja saada muusikuks, Tanya on vaikne tüdruk, kes elab vanaema juures. Pärast kooli lõpetamist lahkuvad Nikita ja tema parim sõber Artjom, kes on samuti Tanyasse armunud, pealinna, kus nad astuvad Ülikooli, Tanya jääb külla." TextColor="Black"/>
+                <Button Text="Lugema" Clicked="Button_Clicked_LoeVanil"/>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

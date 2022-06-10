@@ -18,5 +18,10 @@ namespace rebookkorsunov
         {
             await Navigation.PushModalAsync(new ktotenjPage());
         }
+
+        private async void Button_Clicked_Apel(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new apelPage());
+        }
     }
 }

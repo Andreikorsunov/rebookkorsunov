@@ -17,18 +17,19 @@
                 <Image Source="ktotiten.png"/>
             </StackLayout>
             <StackLayout Grid.Column="1">
-                <Label FontSize="25" Text="Kes sa oled, Vari?"/>
-                <Label FontSize="15" Text="56 lehekülge"/>
-                <Label FontSize="10" Text="Rahuliku ja mõõdetud eluga harjunud vaikset linnakest valdas õuduslaine. Kunstnik on metsaline, kes hakkas noori tüdrukuid jahtima, neid julmalt tapma ja võimude abitust mõnitades. Olen tavaline üliõpilane, kellest võib saada ka tema ohver, aga mul on selle koletisega omad kontod ja just kättemaks sunnib mind vaatamata hirmule võitlema."/>
-                <Button Text="Lugema" Clicked="Button_Clicked_LoeTenj"/>
+                <Label FontSize="25" Text="Kes sa oled, Vari?" TextColor="Black"/>
+                <Label FontSize="15" Text="3 lehekülge/56" TextColor="Black"/>
+                <Label FontSize="10" Text="Rahuliku ja mõõdetud eluga harjunud vaikset linnakest valdas õuduslaine. Kunstnik on metsaline, kes hakkas noori tüdrukuid jahtima, neid julmalt tapma ja võimude abitust mõnitades. Olen tavaline üliõpilane, kellest võib saada ka tema ohver, aga mul on selle koletisega omad kontod ja just kättemaks sunnib mind vaatamata hirmule võitlema." TextColor="Black"/>
+                <Button Text="Lugema" Clicked="Button_Clicked_LoeTenj" />
             </StackLayout>
             <StackLayout Grid.Column="0" Grid.Row="1">
-                <Image Source="ktotiten.png"/>
+                <Image Source="apel.jpg"/>
             </StackLayout>
             <StackLayout Grid.Column="1" Grid.Row="1">
-                <Label FontSize="25" Text="Kes sa oled, Vari?"/>
-                <Label FontSize="15" Text="69 lehekülge"/>
-                <Label FontSize="10" Text="Rahuliku ja mõõdetud eluga harjunud vaikset linnakest valdas õuduslaine. Kunstnik on metsaline, kes hakkas noori tüdrukuid jahtima, neid julmalt tapma ja võimude abitust mõnitades. Olen tavaline üliõpilane, kellest võib saada ka tema ohver, aga mul on selle koletisega omad kontod ja just kättemaks sunnib mind vaatamata hirmule võitlema."/>
+                <Label FontSize="25" Text="Mürgine Apelsin" TextColor="Black"/>
+                <Label FontSize="15" Text="2 lehekülge/100" TextColor="Black"/>
+                <Label FontSize="10" Text="Sündmuste keskmes - endine korrakaitsja, üritati kallale tema kallimat. Tahes-tahtmata saab temast sündmustes osaline ja on sunnitud esmapilgul lootusetut juhtumit uurima." TextColor="Black"/>
+                <Button Text="Lugema" Clicked="Button_Clicked_Apel"/>
             </StackLayout>
         </Grid>
     </ScrollView>
